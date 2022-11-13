@@ -1,4 +1,4 @@
-  /* 1 General */
+    /*  */
     @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
@@ -93,7 +93,7 @@
         font-size: 4.375rem;
         line-height: 3.75rem;
         font-weight: 700;
-        color: var(--text-black);
+        color: var(--text-b);
         margin-bottom: 1.25rem;
         font-family: var(--primary-font);
     }
@@ -120,7 +120,7 @@
     h5 {
         font-size: 3rem;
         font-family: "Poppins", sans-serif;
-        font-weight: 450;
+        font-weight: 500;
         color: #002057;
 
     }
@@ -128,7 +128,7 @@
     h5 span {
         font-size: 2.1rem;
         font-weight: 320;
-        color: brown;
+        color: teal;
     }
 
     .textcontainer {
@@ -384,25 +384,26 @@
             font-size: 1.5rem;
         }
         h3{
-            text-align: center;
+            margin-left: 2rem;
         }
         .about-intro p {
             font-size: 23px;
-            margin-left: 1rem;
+            margin-left: 0.5rem;
+            text-align: justify;
             padding-inline-start: 0.5rem;
             padding-inline-end: 0.5rem;
             width: auto;
             
         }
         h2 {
-            margin-top: -39rem;
+            margin-top: -41rem;
         }
         .header_wrapper .navbar{
             padding: 0.075rem 0;
         }
         h1 {
             font-size: 1.5rem;
-            margin: 0 0 4px;
+            margin: 0 0 14px;
         }
     }
 
@@ -414,7 +415,7 @@
 
         h1 {
             font-size: 1.5rem;
-            margin: 0 0 3px;
+            margin: 0 0 14px;
         }
 
         .top-right-img {
@@ -422,32 +423,35 @@
         }
         
         h3{
-            margin-left: 3rem;
+            margin-left: 2rem;
         }
 
         h2 {
             margin-top: -32rem;
+            font-size: 2.4rem;
         }
 
         h5 {
-            font-size: 2rem;
-            margin-top: -1rem;
+            font-size: 2.4rem;
+           
+            margin-top: -0.5rem;
         }
 
         h5 span {
             font-size: 1.5rem;
+            font-weight: bold;
         }
 
         .textcontainer {
-            margin-top: 1rem;
+            margin-top: 0.7rem;
         }
 
         
         .about-intro p {
             font-size: 23px;
-          
+            text-align: justify;
             width: auto;
-            padding-inline-start: 0.5rem;
+            padding-inline-start: 0rem;
             padding-inline-end: 0.5rem;
             
         }
@@ -455,7 +459,11 @@
             margin-top: -4rem;
         }
         .header_wrapper .navbar{
-            padding: 0 0 0;
+         
+           padding: 0 0 0;
+        }
+        .textcontainer .text.first-text{
+            font-size: 2rem;
         }
     }
 
@@ -495,14 +503,14 @@
         }
 
         h2 {
-            margin-top: -33rem;
+            margin-top: -34rem;
         }
         .header_wrapper .navbar{
             padding: 0 0 0;
         }
         h1 {
             font-size: 1.5rem;
-            margin: 0 0 3px;
+            margin: 0 0 14px;
         }
 
     }
@@ -540,7 +548,7 @@
         }
         h1 {
             font-size: 1.5rem;
-            margin: 0 0 3px;
+            margin: 0 0 14px;
         }
 
     }
