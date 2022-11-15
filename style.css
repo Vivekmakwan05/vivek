@@ -1,4 +1,4 @@
-       /*  */
+        /*  */
     @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
@@ -227,7 +227,7 @@
     }
     
     .social-menu ul li .fab:hover{
-        color: #fff;
+        color: white;
     }
     
     .social-menu ul li a{
@@ -236,7 +236,7 @@
         width: 60px;
         height: 60px;
         border-radius: 50%;
-        background-color: lightgray;
+        background-color:white;
         text-align: center;
         transition: .6s;
         box-shadow: 0 5px 4px rgba(0,0,0,.5);
@@ -253,7 +253,7 @@
         background-color: #E4405F;
     }
     .social-menu ul li:nth-child(3) a:hover{
-        background-color: #fff;
+        background-color: rgb(13, 158, 231);
     }
     .social-menu ul li:nth-child(4) a:hover{
         background-color: #000;
@@ -481,7 +481,7 @@
             border-radius: 8px;
         }
         .social-menu ul{
-            margin-top: 76rem;
+            margin-top: 65rem;
         }
         .social-menu ul li a{
             height: 50px;
@@ -545,8 +545,15 @@
             border-radius: 8px;
         }
         .social-menu ul{
-            margin-top: 72rem;
+            margin-top: 61rem;
             margin-left: 1rem;
+        }
+        .social-menu ul li a{
+            height: 50px;
+            width: 50px;
+        }
+        .social-menu ul li .fab{
+            line-height: 50px;
         }
 
     }
